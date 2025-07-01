@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Nunito Sans;
+    box-sizing: border-box;
+}
+
+.div-mobile-bg{
+    width: 100%;
+height: 68.0625rem;
+flex-shrink: 0;
+position: fixed;
+object-fit: cover;
+
+}
+
+.div-mobile-bg svg{
+width: 100%;
+}
+
+.div-hero{
+    display: flex;
+margin: 16px;
+margin-top: 0;
+padding-top: 4em;
+flex-direction: column;
+align-items: center;
+gap: 1.5rem;
+position: relative;
+}
+
+.div-hero img{
+    width: 10em;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.div-hero-text{
+text-align: center;
+font-family: "Nunito Sans";
+font-size: 1.5em;
+font-style: normal;
+font-weight: 600;
+line-height: 2.375rem; /* 86.364% */
+letter-spacing: -0.0275rem;
+text-transform: uppercase;
+}
+
+.body-copy{
+   text-align: justify;
+font-size: 0.875rem;
+font-weight: 600;
+line-height: 1.5em; /* 1.10719rem */
+letter-spacing:0.08em;
+text-transform: uppercase;
+margin:1em 3em;
+}
+
+.div-menu{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+align-self: stretch;
+width: 100%;
+}
+
+.div-menu-item{
+display: flex;
+padding: 1.5rem;
+align-items: center;
+border-radius: 1rem;
+border: 1px solid #000;
+background: #FCFCFC;
+width: 100%;
+}
+
+.div-hero-bg-shape{
+    border-radius: 15em 15em 0em 0em;
+background: #FAE089;
+width: 100%;
+height: 140%;
+flex-shrink: 0;
+position: absolute;
+margin-top: 8em;
+}
+
+.div-about{
+    background-color: red;
+    height: 4em;
+    margin-top: 2em;
+}
+
+/* fonts */
+
+h1{
+color: #000;
+font-family: "Nunito Sans";
+font-size: 2.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.4375rem;
+letter-spacing: -0.0275rem;
+text-transform: uppercase;
+}
+
+.h1-italics{
+  color: #000;
+font-family: "Nunito Sans";
+font-size: 2.75rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.375rem;
+letter-spacing: -0.0275rem;
+text-transform: uppercase;  
+}
+
+h2{
+    color: #000;
+font-family: "Nunito Sans";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.375rem; /* 158.333% */
+letter-spacing: -0.015rem;
+text-transform: uppercase;
+}
+
